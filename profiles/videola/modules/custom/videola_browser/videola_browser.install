@@ -1,0 +1,33 @@
+<?php
+
+
+
+/**
+ * Implements hook_install().
+ */
+function videola_browser_install() {
+  videola_browser_update_6000();
+}
+
+/**
+ * Create 'Catgories' vocabulary.
+ */
+function videola_browser_update_6000() {
+  $ret = array();
+
+  // Create vocab.
+  $vocabulary = array(
+    'name' => t('Categories'),
+    'description' => t('Categories for Videos'),
+    'hierarchy' => 1,
+    'module' => 'videola_browser', // or nothing
+    'weight' => 1,
+    'nodes' => array(
+      'videola_video' => 'videola_video',
+    ),
+  );
+  taxonomy_save_vocabulary($vocabulary);
+
+  return $ret;
+}
+

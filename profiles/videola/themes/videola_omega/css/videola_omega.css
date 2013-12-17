@@ -1,0 +1,55 @@
+/* @override http://localhost/_lullabot/videola/videola/profiles/videola/themes/videola_omega/css/videola_omega.css?m */
+
+/**
+ * @file
+ * Videola Omega Theme CSS.
+ */
+
+.view-videola-videos-by-cat .views-row {
+	border-bottom: 1px solid #999;
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.video-teaser-left {
+	float: left;
+	width: 240px;
+}
+
+.view-videola-videos-by-cat h3 {
+	margin: 0;
+}
+
+/* Badges for video screens */
+.view-videola-videos .views-view-grid td span.field-content,
+.view-videola-videos-by-cat .field-content {
+	/* Allow absolute positioning of badges relative to grid element. */
+	position: relative;
+}
+
+.free-video-badge,
+.free-video-badge-small {
+  background: url(../images/video_badge_free_small.png) no-repeat top right;
+  height: 79px;
+  width: 78px;
+  position: absolute;
+  top: 0;
+  left: 132px;
+  z-index: 500;
+}
+
+.free-video-badge {
+	left: 777px;
+}
+
+.view-videola-videos-by-cat .free-video-badge-small {
+  /*margin-left: 142px;*/
+}
+
+.views-field-field-videola-ooyala-video-value .free-video-badge-small {
+	margin-top: -144px;
+	margin-left: 179px;
+	position: absolute;
+}

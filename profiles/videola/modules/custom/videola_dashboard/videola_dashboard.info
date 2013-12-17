@@ -1,0 +1,26 @@
+core = "6.x"
+dependencies[] = "boxes"
+dependencies[] = "context"
+dependencies[] = "videola_browser"
+dependencies[] = "videola_core"
+dependencies[] = "videola_queue"
+dependencies[] = "views"
+description = "Dashboard/Frontpage for videola sites."
+features[box][] = "videola_anon_front"
+features[box][] = "videola_anonymous_signup_box"
+features[context][] = "videola_dashboard_anon"
+features[context][] = "videola_dashboard_subscribed"
+features[ctools][] = "boxes:box:1"
+features[ctools][] = "context:context:3"
+name = "Videola Dashboard"
+package = "Videola"
+project = "videola_dashboard"
+project status url = "http://code.lullabot.com/fserver"
+version = "6.x-1.0-alpha"
+
+
+; Information added by drush on 2013-12-16
+version = "unknown"
+project = "videola"
+datestamp = "1387263780"
+

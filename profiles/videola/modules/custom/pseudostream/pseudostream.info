@@ -1,0 +1,10 @@
+name = Pseudostream
+description = PHP implemntatin of HTTP bit-rate seeking.
+core = 6.x
+
+
+; Information added by drush on 2013-12-16
+version = "unknown"
+project = "videola"
+datestamp = "1387263780"
+

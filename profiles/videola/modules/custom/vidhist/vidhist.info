@@ -1,0 +1,10 @@
+name = Video History
+description = Keeps user/global video viewing stats and history.
+core = 6.x
+
+
+; Information added by drush on 2013-12-16
+version = "unknown"
+project = "videola"
+datestamp = "1387263780"
+

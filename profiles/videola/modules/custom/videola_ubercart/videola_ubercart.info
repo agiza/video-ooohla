@@ -1,0 +1,17 @@
+core = "6.x"
+description = "Ubercart settings and configuration for Videola"
+name = "Videola Ubercart"
+package = "Videola"
+project = "videola_ubercart"
+project status url = "http://code.lullabot.com/fserver"
+version = "6.x-1.0-alpha"
+dependencies[] = uc_roles
+dependencies[] = uc_atctweaks
+dependencies[] = uc_recurring_subscription
+
+
+; Information added by drush on 2013-12-16
+version = "unknown"
+project = "videola"
+datestamp = "1387263780"
+

@@ -1,0 +1,19 @@
+core = "6.x"
+dependencies[] = "content"
+dependencies[] = "draggableviews"
+dependencies[] = "flag"
+description = "Allow users to place videos in to a queue for later viewing"
+features[flag][] = "queue"
+features[views][] = "videola_queue"
+features[views_api][] = "api:2"
+name = "Videola Queue"
+package = "Videola"
+project = "videola_queue"
+project status url = "http://code.lullabot.com/fserver"
+version = "6.x-1.0-alpha"
+
+; Information added by drush on 2013-12-16
+version = "unknown"
+project = "videola"
+datestamp = "1387263780"
+
